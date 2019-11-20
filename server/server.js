@@ -21,7 +21,7 @@ app.post('/user', function(req, res) {
             message: "Name is required"
         });
     } else {
-        res.json({ persona: body });
+        res.json({ person: body });
     }
 
 
