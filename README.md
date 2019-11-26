@@ -1,6 +1,6 @@
-##  Restfull app
+##  Multiplication Console Application.
 
- A rest server in node
+ This is a console application in NodeJS to obtain the different multiplication tables.
 
  Execute this command:
 
