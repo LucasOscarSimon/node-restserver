@@ -29,10 +29,10 @@ app.get('/user', verifyToken, (req, res) => {
                     ok: true,
                     users,
                     count
-                })
-            })
-        })
-})
+                });
+            });
+        });
+});
 
 
 app.post('/user', [verifyToken, verifyAdmin_Role], function(req, res) {
@@ -105,7 +105,7 @@ app.delete('/user/:id', [verifyToken, verifyAdmin_Role], function(req, res) {
             ok: true,
             user: deletedUser
         });
-    })
+    });
 })
 
 module.exports = app;
